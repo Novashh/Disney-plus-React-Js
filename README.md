@@ -1,4 +1,4 @@
-# Disney-Plus React-Project
+# Disney-Plus-Clone React-Js Project
 
 # Styled-Component
 # React-Slicker
