@@ -18,6 +18,10 @@ function Movies() {
         <Wrap>
           <img src="/images/incredebles2.jpg" alt=""></img>
         </Wrap>
+      </Content>
+
+      <h4>Trending</h4>
+      <Content>
         <Wrap>
           <img src="/images/bao.jpg" alt=""></img>
         </Wrap>
@@ -30,6 +34,10 @@ function Movies() {
         <Wrap>
           <img src="/images/micky.jpg" alt=""></img>
         </Wrap>
+      </Content>
+
+      <h4>Originals</h4>
+      <Content>
         <Wrap>
           <img src="/images/raya.jpg" alt=""></img>
         </Wrap>
@@ -51,12 +59,20 @@ export default Movies;
 
 const Container = styled.div`
   margin-top: 30px;
+
+  h4 {
+    margin-top: 20px;
+  }
 `;
 
 const Content = styled.div`
   display: grid;
   grid-gap: 25px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 `;
 
 const Wrap = styled.div`
