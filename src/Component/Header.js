@@ -92,6 +92,12 @@ const NavMenu = styled.div`
     color: violet;
     position: relative;
   }
+  
+    @media (max-width: 1000px) {
+    a {
+      display: none;
+    }
+  }
 `;
 
 const UserLogin = styled.div`
