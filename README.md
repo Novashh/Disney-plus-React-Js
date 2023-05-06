@@ -5,7 +5,7 @@
 # React-Carousel
 # React-Router
 
-# In portfolio There is no Responsiveness so I updated It now It Responsive for smaller devices
+# There is no responsiveness in the portfolio, therefore I updated it immediately. It is suitable for tiny devices.
 
 # Output
 
